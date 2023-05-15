@@ -1,0 +1,81 @@
+h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  }
+
+  
+  .letter {
+    transition: color 1000ms; 
+  }
+  
+  
+  #meme-form {
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #meme-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  
+  .meme {
+    position: relative;
+    margin: 1rem;
+    border-radius: 5px;
+     overflow: hidden;
+  }
+  
+  
+  .meme img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  
+  .top-text, .bottom-text {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 1rem;
+  }
+  
+  
+  .top-text {
+    top: 0;
+  }
+  
+  .bottom-text {
+    bottom: 0;
+  }
+  
+
+  
+  .delete-button {
+    position: absolute;
+    top: 0;
+    right: 10;
+    background-color: #ff0000;
+    color: #fff;
+    border: solid;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
